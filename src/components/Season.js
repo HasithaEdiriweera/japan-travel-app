@@ -23,7 +23,7 @@ const Season = () => {
   return (
     <div>
        <h2>{seasonName.charAt(0).toUpperCase() + seasonName.slice(1)} in Japan</h2>
-      <h3>Weather in Tokyo</h3>
+      <h3>Weather In Tokyo</h3>
       {weather ? (
         <p>{`Temperature: ${(weather.main.temp - 273.15).toFixed(2)} °C`}</p>
       ) : (
